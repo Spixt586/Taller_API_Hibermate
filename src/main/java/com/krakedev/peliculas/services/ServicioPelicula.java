@@ -59,11 +59,11 @@ public class ServicioPelicula {
 		return true;
 	}
 	
-	public List<Pelicula> buscarPorGenero(String genero, Pelicula pelicula ){
+	public List<Pelicula> buscarPorGenero(String genero){
 		return peliculaRepository.findByGenero(genero);
 	}
 	
-	public List<Pelicula> buscarPorDisponible(boolean disponible, Pelicula pelicula ){
+	public List<Pelicula> buscarPorDisponible(boolean disponible){
 		return peliculaRepository.findByDisponible(disponible);
 	}
 }

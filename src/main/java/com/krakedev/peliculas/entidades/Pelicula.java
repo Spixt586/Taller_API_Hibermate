@@ -28,6 +28,10 @@ public class Pelicula {
 	
 	
 	
+	public Pelicula() {
+		super();
+	}
+
 	public Pelicula(Long id, String nombre, String director, String genero, int duracion, boolean disponible) {
 		super();
 		this.id = id;
