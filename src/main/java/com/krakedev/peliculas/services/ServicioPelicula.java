@@ -43,6 +43,7 @@ public class ServicioPelicula {
 		encontrado.setGenero(pelicula.getGenero());
 		encontrado.setDuracion(pelicula.getDuracion());
 		encontrado.setDisponible(pelicula.isDisponible());
+		encontrado.setCalificacion(pelicula.getCalificacion());
 
 		return peliculaRepository.save(encontrado);// Recibe a encontrado pporque si recibe, porque si solo llamamos al
 													// save va a crear otra porque no existe

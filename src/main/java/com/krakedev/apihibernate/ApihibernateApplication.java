@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.persistence.autoconfigure.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
+//escanea todos los repositorios y entidades
 @SpringBootApplication(scanBasePackages="com.krakedev")
 
 @EnableJpaRepositories(basePackages="com.krakedev")
