@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 public class Pelicula {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)//Le decimos que es una ID
 	private Long id;
 	@Column(nullable = false, length = 100) // Nullable al ponerlo en false hace que no se pueda crear un null en el
 											// atributo Y length es para el largo del nombre, un límite
